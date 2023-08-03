@@ -1,8 +1,5 @@
 
 
-export const metadata ={
-    title:'Restuarant - Menu',
-}
 
 const Menu =()=>{
     return(

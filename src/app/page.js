@@ -1,13 +1,13 @@
+import { pacifico } from '@/analytics/font/fonts'
 import Image from 'next/image'
+import MenuBar from '@/component/manuBar/menuBar' 
 
-export const metadata ={
-  title:'Restuarant - Home',
-}
 
 export default function Home() {
   return (
-    <main>
-      Home
+    <main >
+      <MenuBar/>
+      <p className={`${pacifico.className}`}>Home</p>
     </main>
   )
 }

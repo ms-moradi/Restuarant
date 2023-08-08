@@ -8,6 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('/restuarant/src/analytics/image/bghero.jpg')",
+      },
+      animation:{
+        'spin-slow': 'spin 30s linear infinite',
+      },
     },
   },
   plugins: [],

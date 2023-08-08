@@ -1,4 +1,5 @@
 import './globals.css'
+import Header from '@/component/header/header';
 import {heebo} from '../analytics/font/fonts';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -13,7 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={heebo.className}>
       <head/>
-      <body>{children}</body>
+      <body>
+        <Header/>
+        {children}
+      </body>
     </html>
   )
 }

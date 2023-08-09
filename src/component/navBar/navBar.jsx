@@ -6,7 +6,7 @@ import { faUtensils, faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 //import components
-import MenuBar from "../manuBar/menuBar";
+import MenuBar from "../manubar/menubar";
 
 
 //import font 
@@ -28,8 +28,8 @@ const NavBar =({setOpenSubMenu, openSubMenu, screenUser, setScreenUser})=>{
     
 
     return(
-        <div className="fixed top-0 right-0 left-0">
-            <div className="bg-[#0f172b] flex flex-row justify-between lg:items-center gap-2 px-[15px] lg:pl-[50px] lg:pr-[30px">
+        <div className="fixed top-0 right-0 left-0 z-50">
+            <div className="bg-[#0f172b] flex flex-row justify-between lg:items-center gap-2 px-[15px] lg:pl-[50px] lg:pr-[30px]">
                 <div className="flex justify-start items-center gap-2">
                     <FontAwesomeIcon icon={faUtensils} className="text-[#fea116] text-2xl lg:text-4xl"/>   
                     <h1 className={`${nunito.className} text-[#fea116] text-[26.8px] lg:text-[38px] font-extrabold not-italic `} >

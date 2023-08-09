@@ -55,7 +55,7 @@ const MenuBar =({display, setOpenSubMenu, screenUser,openSubMenu})=>{
                 <Link href="/Contact">
                     <li className='hover:text-[#fea116] cursor-pointer'>CONTACT</li>
                 </Link>
-                <Button title={'BOOK A TABLE'} px={'px-6'} py={'py-2'}/>
+                <Button title={'BOOK A TABLE'} width={'w-[150px]'} height={'h-[50px]'}/>
 
             </ul>
         </div>

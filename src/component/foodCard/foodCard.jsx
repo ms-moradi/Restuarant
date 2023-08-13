@@ -4,15 +4,15 @@ import Image from "next/image";
 import { nunito, heebo } from "@/analytics/font/fonts";
 import food from "@/analytics/image/menu-1.jpg"
 
-const FoodCard =()=>{
+const FoodCard =({picture})=>{
     return(
-        <div className="w-[700px] flex justify-start items-center gap-8 p-2">
-            <Image src={food} alt='foods menu' />
-            <div>
+        <div className="w-[550px] flex shrink justify-center items-center gap-6 p-2">
+            <Image src={picture} alt='foods menu'  width={90}/>
+            <div className="w-[430px]">
                 <div className="border-b-[1px] border-slate-200 pb-2">
-                    <h5 className={`${nunito.className} text-[#fea116] text-xl font-extrabold flex justify-between items-center`}>
+                    <h5 className={`${nunito.className}  text-xl font-extrabold flex justify-between items-center`}>
                         <span>Chicken Burger</span>
-                        <span>$115</span>
+                        <span className="text-[#fea116]">$115</span>
                     </h5>
                 </div>
                 <div className="pt-2">

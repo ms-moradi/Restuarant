@@ -12,7 +12,10 @@ import team1 from "@/analytics/image/team-1.jpg";
 import team2 from "@/analytics/image/team-2.jpg";
 import team3 from "@/analytics/image/team-3.jpg";
 import team4 from "@/analytics/image/team-4.jpg";
-
+import testimonial1 from "@/analytics/image/testimonial-1.jpg";
+import testimonial2 from "@/analytics/image/testimonial-2.jpg";
+import testimonial3 from "@/analytics/image/testimonial-3.jpg";
+import testimonial4 from "@/analytics/image/testimonial-4.jpg";
 
 export const foodMenu = [
     {id:1, picture:menu1, status:0},
@@ -36,4 +39,12 @@ export const members = [
     {id:2, name:'FullName', description:'Designation', image:team2},
     {id:3, name:'FullName', description:'Designation', image:team3},
     {id:4, name:'FullName', description:'Designation', image:team4},
+]
+
+
+export const commentUser = [
+    {id:1, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial1},
+    {id:2, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial2},
+    {id:3, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial3},
+    {id:4, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial4},
 ]

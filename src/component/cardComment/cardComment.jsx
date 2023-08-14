@@ -5,7 +5,7 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 
 
-const CardComment =({name, image, commnet, profession })=>{
+const CardComment =({name, image, comment, profession })=>{
     return(
         <div className="w-[360px] border border-slate-200 rounded-sm p-6">
             <FontAwesomeIcon icon={faQuoteLeft} className="text-[#fea116] text-5xl" />

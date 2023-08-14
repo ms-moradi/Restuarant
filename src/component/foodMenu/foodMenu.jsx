@@ -28,7 +28,7 @@ const FoodMenu =()=>{
         console.log(key ,meal)
     }
     return(
-        <div className="flex flex-col items-center my-[200px]">
+        <div className="flex flex-col items-center my-[150px]">
             <div className="flex justify-start items-center gap-2 pb-3">
                 <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
                 <h5 className={`${pacifico.className} text-[#fea116] text-xl`}>Food Menu</h5>

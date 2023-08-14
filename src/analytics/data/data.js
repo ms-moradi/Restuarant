@@ -43,8 +43,8 @@ export const members = [
 
 
 export const commentUser = [
-    {id:1, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial1},
-    {id:2, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial2},
-    {id:3, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial3},
-    {id:4, name:'Client Name', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial4},
+    {id:1, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial1},
+    {id:2, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial2},
+    {id:3, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial3},
+    {id:4, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial4},
 ]

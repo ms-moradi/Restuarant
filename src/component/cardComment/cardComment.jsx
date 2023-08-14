@@ -2,7 +2,7 @@ import Image from "next/image";
 import {nunito, heebo} from "@/analytics/font/fonts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
-import testimonial3 from "@/analytics/image/testimonial-3.jpg";
+
 
 
 const CardComment =({name, image, commnet, profession })=>{

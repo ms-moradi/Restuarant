@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from '@/component/header/header';
+import Footer from'@/component/footer/footer';
 import {heebo} from '../analytics/font/fonts';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   )

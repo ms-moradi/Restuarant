@@ -1,4 +1,4 @@
-import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faTwitter, faYoutube, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import menu1 from "@/analytics/image/menu-1.jpg";
@@ -62,4 +62,11 @@ export const contactFooter = [
     {id:1, title:'123 Street, New York, USA', icon:faLocationDot},
     {id:2, title:'+012 345 67890', icon:faPhone},
     {id:3, title:'info@example.com', icon:faEnvelope},
+]
+
+export const IconFooter = [
+    {id:1, icon:faTwitter},
+    {id:2, icon:faFacebookF},
+    {id:3, icon:faYoutube},
+    {id:4, icon:faLinkedinIn},
 ]

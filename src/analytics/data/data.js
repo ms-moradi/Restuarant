@@ -48,3 +48,11 @@ export const commentUser = [
     {id:3, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial3},
     {id:4, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial4},
 ]
+
+export const companyFooter = [
+    {id:1, title:'About Us', link:'/About'},
+    {id:2, title:'Contact Us', link:'/Contact'},
+    {id:3, title:'Reservation', link:'/Booking'},
+    {id:4, title:'Privacy Policy', link:'/'},
+    {id:5, title:'Terms & Condition', link:'/'},
+]

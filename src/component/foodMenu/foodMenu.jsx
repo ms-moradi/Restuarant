@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from "react";
-import { pacifico, nunito, heebo } from "@/analytics/font/fonts";
+import { nunito, heebo } from "@/analytics/font/fonts";
 import FoodCard from "../foodCard/foodCard";
-
+import Title from "../title/title";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMugSaucer, faBurger, faUtensils } from "@fortawesome/free-solid-svg-icons";
@@ -28,16 +28,9 @@ const FoodMenu =()=>{
         console.log(key ,meal)
     }
     return(
-        <div className="flex flex-col items-center my-[150px]">
-            <div className="flex justify-start items-center gap-2 pb-3">
-                <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
-                <h5 className={`${pacifico.className} text-[#fea116] text-xl`}>Food Menu</h5>
-                <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
-            </div>
-            <div className="mb-[50px]">
-                <h1 className={`${nunito.className} text-[40px] font-extrabold`}>Most Popular Items</h1>
-            </div>
-            <div className="border-b-[2px] flex justify-center gap-[30px] pb-2">
+        <div className="flex flex-col items-center my-20">
+            <Title title={'Food Menu'} header={'Most Popular Items'}/>
+            <div className="border-b-[2px] flex justify-center gap-[30px] pb-2 mt-[50px]">
                 {buttons.map((button , key)=>(
                     <button key={key} className="flex justify-start gap-4" onClick={event => handelButtonMenu(key)}>
                         <FontAwesomeIcon icon={button.icon} className="text-[#fea116] text-4xl"/>

@@ -18,7 +18,7 @@ const items = [
 
 const Welcome =()=>{
     return(
-        <div className="mb-[100px] px-[40px]">
+        <div className="height-auto mb-40 px-[40px]">
             <div className="flex justify-center gap-[50px] ">
                 <div className="w-[550px] h-[400px]  relative">
                     <Image src={about1} alt="image about" width={270} className="absolute top-[20px] left-[0px]"/>

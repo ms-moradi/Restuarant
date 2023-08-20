@@ -1,10 +1,10 @@
 
-
+import BookTable from "@/component/bookTable/bookTable";
 
 const Booking =()=>{
     return(
         <>
-        Booking
+            <BookTable/>
         </>
     )
 }

@@ -14,7 +14,7 @@ const data = [
 
 const Service =()=>{
     return(
-        <div className='flex justify-center content-center gap-[25px] my-[80px] px-[60px]'>
+        <div className='flex justify-center content-center gap-[25px] my-10 px-[60px]'>
             {data.map((card) => (
                 <div key={card.id} className="inline-block w-[260px] h-[260px] hover:bg-[#fea116] hover:text-[#fff] p-6 shadow-3xl rounded-[2px] animate-fade-in-up">
                     <FontAwesomeIcon icon={card.icon} className="text-[#fea116] text-[48px] mb-5" />

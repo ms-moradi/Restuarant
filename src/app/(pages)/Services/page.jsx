@@ -1,12 +1,18 @@
 
+import Title from "@/component/title/title";
+import Service from "@/component/service/service";
 
 
-const Service =()=>{
+const Services =()=>{
     return(
-        <>
-        Service
-        </>
+        <div className="mt-[130px] flex flex-col items-center justify-center">
+            <Title title={'Our Services'} header={'Explore Our Services'}/>
+            <div className="my-5">
+                <Service/>
+                <Service/>
+            </div>
+        </div>
     )
 }
 
-export default Service;
+export default Services;

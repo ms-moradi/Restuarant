@@ -1,17 +1,13 @@
 
 import CardComment from "@/component/cardComment/cardComment";
+import Title from "../title/title";
 import { commentUser } from "@/analytics/data/data";
 import { nunito, pacifico } from "@/analytics/font/fonts";
 
 const Comments =()=>{
     return(
-        <div className="flex flex-col flex-nowrap items-center gap-4 my-8">
-            <div className="flex justify-center items-center gap-2">
-                <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
-                <h5 className={`${pacifico.className} text-xl text-[#fea116] font-normal`}>Testimonial</h5>
-                <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
-            </div>
-            <h className={`${nunito.className} text-[40px] font-extrabold`}>Our Clients Say!!!</h>
+        <div className="w-full overflow-x-scroll flex flex-col flex-nowrap items-center gap-4 my-20">
+            <Title title={'Testimonial'} header={'Our Clients Say!!!'}/>
             <div className="flex justify-center gap-10">
                 {commentUser.map(comment=>(
                     <div key={comment.id}>

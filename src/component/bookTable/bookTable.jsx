@@ -10,7 +10,7 @@ import { pacifico, nunito } from "@/analytics/font/fonts";
 
 const BookTable =()=>{
     return(
-        <div className="max-w-screen-2xl flex justify-center my-6">
+        <div className="max-w-screen-2xl flex justify-center my-6 animate-slide-in-up ">
             <div className="w-1/2 h-[510px] relative">
                 <Image src={video} alt='video' className="h-[510px]"/>
                 <div className="w-32 h-32 bg-[#fea116] rounded-full flex absolute top-[220px] left-[280px] animate-ping-slow"></div>

@@ -21,10 +21,10 @@ const Welcome =()=>{
         <div className="height-auto mb-40 px-[40px]">
             <div className="flex justify-center gap-[50px] ">
                 <div className="w-[550px] h-[400px]  relative">
-                    <Image src={about1} alt="image about" width={270} className="absolute top-[20px] left-[0px]"/>
-                    <Image src={about3} alt="image about" width={200} className="absolute top-[305px] left-[70px]"/>
-                    <Image src={about2} alt="image about" width={200} className="absolute top-[90px] right-[65px]"/>
-                    <Image src={about4} alt="image about" width={270} className="absolute top-[305px] right-[-5px]"/>
+                    <Image src={about1} alt="image about" width={270} className="absolute top-[20px] left-[0px] animate-[spinner-grow_2s_ease-in-out_0.5s]"/>
+                    <Image src={about3} alt="image about" width={200} className="absolute top-[305px] left-[70px] animate-[spinner-grow_2s_ease-in-out_1s]"/>
+                    <Image src={about2} alt="image about" width={200} className="absolute top-[90px] right-[65px] animate-[spinner-grow_2s_ease-in-out_0.75s]"/>
+                    <Image src={about4} alt="image about" width={270} className="absolute top-[305px] right-[-5px] animate-[spinner-grow_2s_ease-in-out_1.25s]"/>
                 </div>
                 <div className="mt-[80px]">
                     <div className="flex juatify-start items-center gap-1 pb-2">

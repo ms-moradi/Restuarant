@@ -7,10 +7,8 @@ import Submenu from '@/component/submenu/submenu';
 
 const Header =()=>{
 
-    const [screenUser,setScreenUser] = useState(screen.availWidth)
+    const [screenUser,setScreenUser] = useState(window.screen.availWidth)
     const [openSubMenu, setOpenSubMenu] = useState(false)
-
-
     return(
         <>
             <NavBar openSubMenu={openSubMenu} setOpenSubMenu={setOpenSubMenu} screenUser={screenUser} setScreenUser={setScreenUser}/>

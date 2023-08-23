@@ -1,4 +1,4 @@
-import { pacifico, nunito, heebo } from "@/analytics/font/fonts";
+import { pacifico, nunito } from "@/analytics/font/fonts";
 
 
 const Title =({title, header})=>{
@@ -9,7 +9,7 @@ const Title =({title, header})=>{
                 <h5 className={`${pacifico.className} text-xl text-[#fea116] font-normal`}>{title}</h5>
                 <div className="w-[40px] h-[2px] bg-[#fea116]"></div>
             </div>
-            <h className={`${nunito.className} text-[40px] font-extrabold`}>{header}</h>
+            <h1 className={`${nunito.className} text-2xl lg:text-[40px] font-extrabold`}>{header}</h1>
         </>
     )
 }

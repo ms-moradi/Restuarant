@@ -28,9 +28,9 @@ const FoodMenu =()=>{
         console.log(key ,meal)
     }
     return(
-        <div className="flex flex-col items-center my-20">
+        <div className="max-w-full flex flex-col items-center justify-center my-5 md:my-20 mx-0">
             <Title title={'Food Menu'} header={'Most Popular Items'}/>
-            <div className="border-b-[2px] flex justify-center gap-[30px] pb-2 mt-[50px]">
+            <div className="border-b-[2px] flex flex-wrap justify-center gap-[30px] pb-2 mt-[50px]">
                 {buttons.map((button , key)=>(
                     <button key={key} className="flex justify-start gap-4" onClick={event => handelButtonMenu(key)}>
                         <FontAwesomeIcon icon={button.icon} className="text-[#fea116] text-4xl"/>
@@ -41,7 +41,7 @@ const FoodMenu =()=>{
                     </button>
                 ))}
             </div>
-            <div className="w-[1300px] flex shrink flex-wrap justify-center pt-16">
+            <div className="flex shrink flex-wrap justify-center pt-16">
                 {foodMenu.map((food,key )=> (
                     <div key={key} className="px-2">
                         <FoodCard picture={food.picture}/>

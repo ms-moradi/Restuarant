@@ -48,6 +48,8 @@ export const commentUser = [
     {id:2, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial2},
     {id:3, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial3},
     {id:4, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial4},
+    {id:5, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial1},
+    {id:6, name:'Client Name', profession:'Profession', comment:'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam', image:testimonial2},
 ]
 
 export const companyFooter = [

@@ -38,7 +38,7 @@ const NavBar =({setOpenSubMenu, openSubMenu, screenUser, setScreenUser})=>{
                 </div>
                 {screenUser< 1024 ?
                     <button onClick={handelOpenMenu} className=" text-[#93969f]">
-                     <FontAwesomeIcon icon={faBars} className="text-[20px]" />
+                        <FontAwesomeIcon icon={faBars} className="text-[20px]" />
                     </button>
                 :
                     <MenuBar display={'flex'} setOpenSubMenu={setOpenSubMenu}/>

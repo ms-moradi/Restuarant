@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {nunito, heebo} from "@/analytics/font/fonts";
+import {nunito, heebo} from "../../analytics/font/fonts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
@@ -7,7 +7,7 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 const CardComment =({name, image, comment, profession })=>{
     return(
-        <div className="w-[360px] border border-slate-200 rounded-sm p-6">
+        <div className="w-[280px] lg:w-[360px] border border-slate-200 rounded-sm p-6">
             <FontAwesomeIcon icon={faQuoteLeft} className="text-[#fea116] text-5xl" />
             <div className=" py-3">
                 <p className="text-[#666565] text-base font-normal">{comment}</p>  

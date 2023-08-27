@@ -1,7 +1,7 @@
 
 import Button from "../button/button";
 import Image from "next/image";
-import video from "@/analytics/image/video.jpg";
+import video from "../../analytics/image/video.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { pacifico, nunito } from "@/analytics/font/fonts";
@@ -26,19 +26,19 @@ const BookTable =()=>{
                 <h1 className={`${nunito.className} text-[#fff] text-[40px] font-extrabold`}>Book A Table Online</h1>
                 <div>
                     <div className='flex flex-col items-start md:flex-row md:justify-between'>
-                        <input type='text' placeholder="Your Name" className="w-[280px] h-14 rounded-3 px-5 md:mr-2 mt-4"/>
-                        <input type='text' placeholder="Your Email" className="w-[280px] h-14 rounded-3 px-5 md:ml-2 mt-4"/>
+                        <input type='text' placeholder="Your Name" className="w-[240px] md:w-[280px] h-14 rounded-3 px-5 md:mr-2 mt-4"/>
+                        <input type='text' placeholder="Your Email" className="w-[240px] md:w-[280px] h-14 rounded-3 px-5 md:ml-2 mt-4"/>
                     </div>
                     <div className='flex flex-col items-start md:flex-row md:justify-between'>
-                        <input type='data' placeholder="Date & Time" className="w-[280px] h-14 rounded-3 px-5 md:mr-2 mt-4"/>
-                        <select className="w-[280px] h-14 rounded-3 px-5 md:ml-2 mt-4">
+                        <input type='data' placeholder="Date & Time" className="w-[240px] md:w-[280px] h-14 rounded-3 px-5 md:mr-2 mt-4"/>
+                        <select className="w-[240px] md:w-[280px] h-14 rounded-3 px-5 md:ml-2 mt-4">
                             <option value='1'>People 1</option>
                             <option value='2'>People 2</option>
                             <option value='3'>People 3</option>
                         </select>
                     </div>
                     <div>
-                        <textarea placeholder="Special Request" id="massage" className="w-full h-24 p-5 my-4"></textarea>
+                        <textarea placeholder="Special Request" id="massage" className="w-[240px] md:w-full h-24 p-5 my-4"></textarea>
                     </div>
                     <Button title={'BOOK NOW'} width={'w-full'} height={'h-14'}/>
                 </div>

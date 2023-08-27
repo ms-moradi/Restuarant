@@ -8,7 +8,7 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
-    safelist:['animate-[fade-in-left_1s_ease-in-out]','animate-[slide-in-up_1s_ease-in-out]','animate[fade-in_1s_ease-in-out]','animate[spinner-grow_1s_ease-in-out]'],
+    safelist:['animate-[fade-in-left_1s_ease-in-out]','animate-[slide-in-up_1s_ease-in-out]','animate[fade-in_1s_ease-in-out]','animate[spinner-grow_1s_ease-in-out]','animate[slide-in-down_1s_ease-in-out'],
     extend: {
       boxShadow:{
         '3xl': '5px 5px 40px 5px rgba(0, 0, 0, 0.1)'
@@ -18,6 +18,7 @@ module.exports = {
         'ping-slow': 'ping 2s cubic-bezier(0, 0, .2, 1) infinite',
         'fade-in-left': 'fade-in-left 1s ease-in-out',
         'slide-in-up': 'fade-in-up 2s ease-in-out',
+        'slide-in-down': 'fade-in-down 1s ease-in-out',
         'fade-in': 'fade-in 2s ease-in-out 4s',
         'spinner-grow': 'spinner-grow 2s ease-in-out 4s',
       },

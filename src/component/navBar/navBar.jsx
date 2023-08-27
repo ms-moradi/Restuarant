@@ -6,7 +6,7 @@ import { faUtensils, faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 //import components
-import MenuBar from "../menubar/menubar";
+import MenuBar from "../../component/menubar/menubar";
 
 
 //import font 

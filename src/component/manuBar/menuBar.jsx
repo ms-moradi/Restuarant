@@ -24,25 +24,25 @@ const MenuBar =({display, setOpenSubMenu, screenUser,openSubMenu})=>{
     }
 
     return(
-        <div className='bg-[#0f172b] px-4 relative'>
-            <ul className= {`${display} lg:items-center text-[#ffffff] gap-6 border-t-[.1px] border-[#93969f] lg:border-t-0 px-3 py-1 `}> 
+        <div className='bg-[#0f172b] px-4 relative animate-slide-in-down'>
+            <ul className= {`${display} lg:items-center text-[#ffffff] gap-6 border-t-[.1px] border-[#93969f] lg:border-t-0 px-3 py-2 `}> 
                 <Link href="/">
-                    <li className='hover:text-[#fea116] cursor-pointer'>HOME</li>
+                    <li className='hover:text-[#fea116] cursor-pointer mb-2 '>HOME</li>
                 </Link>
                 <Link href="/About">
-                    <li className='hover:text-[#fea116] cursor-pointer'>ABOUT</li>
+                    <li className='hover:text-[#fea116] cursor-pointer mb-2'>ABOUT</li>
                 </Link>
                 <Link href="/Services">
-                    <li className='hover:text-[#fea116] cursor-pointer'>SERVICES</li>
+                    <li className='hover:text-[#fea116] cursor-pointer mb-2'>SERVICES</li>
                 </Link>
                 <Link href="/Menu">
-                    <li className='hover:text-[#fea116] cursor-pointer'>MENU</li>
+                    <li className='hover:text-[#fea116] cursor-pointer mb-2'>MENU</li>
                 </Link>
                 <li 
                     onClick={handleSubMenu} 
                     className=' relative '
                 >
-                    <div className='flex justify-start items-center gap-2 hover:text-[#fea116] cursor-pointer'>
+                    <div className='flex justify-start items-center gap-2 hover:text-[#fea116] cursor-pointer mb-2'>
                         PAGES 
                         <FontAwesomeIcon icon={faCaretDown} className='text-[#fff] hover:text-[#fea116]'/>
                     </div>
@@ -53,10 +53,9 @@ const MenuBar =({display, setOpenSubMenu, screenUser,openSubMenu})=>{
                     <Submenu display={'hidden'}/>
                     }
                 <Link href="/Contact">
-                    <li className='hover:text-[#fea116] cursor-pointer'>CONTACT</li>
+                    <li className='hover:text-[#fea116] cursor-pointer mb-2'>CONTACT</li>
                 </Link>
                 <Button title={'BOOK A TABLE'} width={'w-[150px]'} height={'h-[50px]'}/>
-            
             </ul>
         </div>
     )    

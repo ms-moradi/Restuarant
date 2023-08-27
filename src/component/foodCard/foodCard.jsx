@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-import { nunito, heebo } from "@/analytics/font/fonts";
+import { nunito, heebo } from "../../analytics/font/fonts";
 
 const FoodCard =({picture})=>{
     return(

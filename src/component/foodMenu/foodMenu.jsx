@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import { nunito, heebo } from "@/analytics/font/fonts";
+import { nunito, heebo } from "../../analytics/font/fonts";
 import FoodCard from "../foodCard/foodCard";
 import Title from "../title/title";
 
@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMugSaucer, faBurger, faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 
-import { foodMenu } from "@/analytics/data/data"; 
+import { foodMenu } from "../../analytics/data/data"; 
 
 const buttons = [
     {id:1, icon:faMugSaucer, adjective:'Popular', meal:'Breakfast'},

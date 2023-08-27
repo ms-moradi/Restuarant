@@ -1,20 +1,23 @@
 'use client'
-import { useState, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 import NavBar from '../navBar/navBar';
 import Submenu from '../submenu/submenu';
 
 
 const Header =()=>{
-    
-    const getwidthScreen =()=>{
-        const width = screen.width
-        return (width);
-    }
 
-    const [screenUser,setScreenUser] = useState(getwidthScreen())
+    
+    const [screenUser,setScreenUser] = useState(0)
     const [openSubMenu, setOpenSubMenu] = useState(false)
-    console.log(screenUser)
+    
+    
+    const handleResize = () => setScreenUser(window.innerWidth)
+    useEffect(() => {
+        handleResize()
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    }, [])
 
     return(
         <>

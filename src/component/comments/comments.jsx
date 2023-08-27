@@ -23,9 +23,9 @@ const Comments =()=>{
             <Title title={'Testimonial'} header={'Our Clients Say!!!'}/>
             <div className="w-full mt-6">
                 <Swiper
-                    className="w-[1200px] h-[290px]"
-                    slidesPerView={3}
-                    spaceBetween={30}
+                    className="h-[300px] lg:w-[1200px] lg:h-[290px]"
+                    slidesPerView={1}
+                    spaceBetween={10}
                     // centeredSlides={true}
                     centeredSlidesBounds={true}
                     freeMode={true}
@@ -36,8 +36,17 @@ const Comments =()=>{
                         delay: 3000,
                         disableOnInteraction: false,
                     }}
+                    breakpoints={{
+                        768:{
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        1024:{
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        }
+                    }}
                     modules={[Pagination, Autoplay, FreeMode]}
-                    // className="mySwiper"
                 > 
                     {commentUser.map(comment=>(
                         <SwiperSlide key={comment.id} className="width-[300px]">

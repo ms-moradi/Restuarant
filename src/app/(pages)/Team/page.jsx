@@ -1,5 +1,5 @@
-import Title from "@/component/title/title";
-import Member from "@/component/member/member";
+import Title from "../../../component/title/title";
+import Member from "../../../component/member/member";
 
 const Team =()=>{
     return(

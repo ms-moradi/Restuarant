@@ -1,6 +1,6 @@
 
-import Title from "@/component/title/title";
-import Service from "@/component/service/service";
+import Title from "../../../component/title/title";
+import Service from "../../../component/service/service";
 
 
 const Services =()=>{

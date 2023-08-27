@@ -1,5 +1,5 @@
-import Welcome from "@/component/welcome/welcome";
-import TeamMember from "@/component/teamMember/teamMember";
+import Welcome from "../../../component/welcome/welcome";
+import TeamMember from "../../../component/teamMember/teamMember";
 
 
 const About = ()=>{

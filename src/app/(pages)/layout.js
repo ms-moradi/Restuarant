@@ -1,4 +1,4 @@
-import MiniBanner from "@/component/miniBanner/miniBanner"
+import MiniBanner from "../../component/miniBanner/miniBanner";
 
 export default function PagesLayout({children}){
     return(

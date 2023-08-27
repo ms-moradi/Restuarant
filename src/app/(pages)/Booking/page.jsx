@@ -1,5 +1,5 @@
 
-import BookTable from "@/component/bookTable/bookTable";
+import BookTable from "../../../component/bookTable/bookTable";
 
 const Booking =()=>{
     return(

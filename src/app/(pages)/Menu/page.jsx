@@ -1,5 +1,5 @@
 
-import FoodMenu from "@/component/foodMenu/foodMenu";
+import FoodMenu from "../../../component/foodMenu/foodMenu";
 
 const Menu =()=>{
     return(

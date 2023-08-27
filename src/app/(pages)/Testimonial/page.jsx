@@ -1,5 +1,5 @@
 
-import Comments from "@/component/comments/comments";
+import Comments from "../../../component/comments/comments";
 
 
 const Testimonial =()=>{

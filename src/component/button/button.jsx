@@ -1,5 +1,5 @@
 'use client'
-import { heebo } from "@/analytics/font/fonts"
+import { heebo } from "../../analytics/font/fonts"
 
 const Button =({title, width, height})=>{
     return(

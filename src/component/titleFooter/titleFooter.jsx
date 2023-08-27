@@ -1,5 +1,5 @@
 
-import {pacifico} from "@/analytics/font/fonts";
+import {pacifico} from "../../analytics/font/fonts";
 
 const TitleFooter =({title})=>{
     return(

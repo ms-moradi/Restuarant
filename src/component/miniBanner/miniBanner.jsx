@@ -1,8 +1,8 @@
 
 import Image from "next/image";
 
-import banner from "@/analytics/image/bghero.jpg";
-import { nunito, heebo } from "@/analytics/font/fonts";
+import banner from "../../analytics/image/bghero.jpg";
+import { nunito, heebo } from "../../analytics/font/fonts";
 
 const MiniBanner =()=>{
     return(

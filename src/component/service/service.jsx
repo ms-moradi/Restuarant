@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUtensils, faUserTie, faCartPlus, faHeadphonesSimple} from "@fortawesome/free-solid-svg-icons";
 
-import { nunito, heebo } from "@/analytics/font/fonts";
+import { nunito, heebo } from "../../analytics/font/fonts";
 
 
 

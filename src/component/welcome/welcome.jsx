@@ -3,11 +3,11 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUtensils} from "@fortawesome/free-solid-svg-icons";
 
-import { pacifico, nunito, heebo } from "@/analytics/font/fonts";
-import about1 from "@/analytics/image/about1.jpg";
-import about2 from "@/analytics/image/about2.jpg";
-import about3 from "@/analytics/image/about3.jpg";
-import about4 from "@/analytics/image/about4.jpg";
+import { pacifico, nunito, heebo } from "../../analytics/font/fonts";
+import about1 from "../../analytics/image/about1.jpg";
+import about2 from "../../analytics/image/about2.jpg";
+import about3 from "../../analytics/image/about3.jpg";
+import about4 from "../../analytics/image/about4.jpg";
 import Button from "../button/button";
 
 
@@ -52,8 +52,7 @@ const Welcome =()=>{
                             </div>
                         ))}
                     </div>
-                    <Button title={'READ MORE'} width={'w-[200px]'} height={'h-[55px]'}/>
-                    
+                    <Button title={'READ MORE'} width={'w-[200px]'} height={'h-[55px]'}/> 
                 </div>
             </div>
         </div>

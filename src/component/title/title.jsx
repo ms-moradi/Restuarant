@@ -1,4 +1,4 @@
-import { pacifico, nunito } from "@/analytics/font/fonts";
+import { pacifico, nunito } from "../../analytics/font/fonts";
 
 
 const Title =({title, header})=>{

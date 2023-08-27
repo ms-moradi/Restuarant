@@ -6,11 +6,11 @@ import { faUtensils, faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 //import components
-import MenuBar from "../manubar/menubar";
+import MenuBar from "../../component/manubar/menubar";
 
 
 //import font 
-import { nunito } from "@/analytics/font/fonts";
+import { nunito } from "../../analytics/font/fonts";
 
 
 

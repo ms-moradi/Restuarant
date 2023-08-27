@@ -1,9 +1,9 @@
 'use client'
 
-import {pacifico, nunito} from '@/analytics/font/fonts';
+import {pacifico, nunito} from '../../analytics/font/fonts';
 import TitleFooter from '../titleFooter/titleFooter';
 import Button from '../button/button';
-import { companyFooter, contactFooter, IconFooter } from '@/analytics/data/data';
+import { companyFooter, contactFooter, IconFooter } from '../../analytics/data/data';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 

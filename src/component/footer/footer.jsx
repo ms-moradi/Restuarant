@@ -1,6 +1,6 @@
 'use client'
 
-import {pacifico, nunito} from '../../analytics/font/fonts';
+import {nunito} from '../../analytics/font/fonts';
 import TitleFooter from '../titleFooter/titleFooter';
 import Button from '../button/button';
 import { companyFooter, contactFooter, IconFooter } from '../../analytics/data/data';

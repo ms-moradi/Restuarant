@@ -72,3 +72,9 @@ export const IconFooter = [
     {id:3, icon:faYoutube},
     {id:4, icon:faLinkedinIn},
 ]
+
+export const contact = [
+    {id:1, title:'Booking' , email:'book@example.com'},
+    {id:2, title:'General' , email:'book@example.com'},
+    {id:3, title:'Technical' , email:'book@example.com'},
+]

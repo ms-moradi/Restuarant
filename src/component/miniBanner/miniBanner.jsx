@@ -6,14 +6,13 @@ import { nunito, heebo } from "../../analytics/font/fonts";
 
 const MiniBanner =()=>{
     const pathname = usePathname().replace('/',' ')
-    console.log(pathname)
 
     return(
-        <div className="max-w-full h-auto flex justify-center relative mb-10">
+        <div className="max-w-scree-full h-auto flex justify-center relative mb-10">
             <div className="max-w-full h-96  bg-[#0f172b]">
                 <Image src={banner} alt="banner" className="max-w-full h-96 mix-blend-darken  object-cover" />
             </div>
-            <div className="w-auto h-auto absolute top-[130px]">
+            <div className="w-auto h-auto absolute top-[130px] pt-10">
                 <div className=" flex flex-col items-center justify-center ">
                     <h1 className={`${nunito.className} text-2xl md:text-[64px] text-white font-extrabold mb-0 md:mb-3`}>{pathname}</h1>
                     <ol className="flex gap-2 mt-2">

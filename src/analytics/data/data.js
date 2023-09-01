@@ -19,14 +19,30 @@ import testimonial3 from "@/analytics/image/testimonial-3.jpg";
 import testimonial4 from "@/analytics/image/testimonial-4.jpg";
 
 export const foodMenu = [
-    {id:1, picture:menu1, status:0},
-    {id:2, picture:menu2, status:1},
-    {id:3, picture:menu3, status:2},
-    {id:4, picture:menu4, status:0},
-    {id:5, picture:menu5, status:1},
-    {id:6, picture:menu6, status:2},
-    {id:7, picture:menu7, status:3},
-    {id:8, picture:menu8, status:4},
+    {id:1, picture:menu1, status:'breakfast'},
+    {id:2, picture:menu2, status:'breakfast'},
+    {id:3, picture:menu3, status:'breakfast'},
+    {id:4, picture:menu4, status:'breakfast'},
+    {id:5, picture:menu5, status:'breakfast'},
+    {id:6, picture:menu6, status:'breakfast'},
+    {id:7, picture:menu7, status:'breakfast'},
+    {id:8, picture:menu8, status:'breakfast'},
+    {id:9, picture:menu1, status:'launch'},
+    {id:10, picture:menu2, status:'launch'},
+    {id:11, picture:menu3, status:'launch'},
+    {id:12, picture:menu4, status:'launch'},
+    {id:13, picture:menu5, status:'launch'},
+    {id:14, picture:menu6, status:'launch'},
+    {id:15, picture:menu7, status:'launch'},
+    {id:16, picture:menu8, status:'launch'},
+    {id:17, picture:menu1, status:'dinner'},
+    {id:18, picture:menu2, status:'dinner'},
+    {id:19, picture:menu3, status:'dinner'},
+    {id:20, picture:menu4, status:'dinner'},
+    {id:21, picture:menu5, status:'dinner'},
+    {id:22, picture:menu6, status:'dinner'},
+    {id:23, picture:menu7, status:'dinner'},
+    {id:24, picture:menu8, status:'dinner'},
 ]
 
 export const sociaNletwork = [

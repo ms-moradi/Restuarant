@@ -1,4 +1,6 @@
+'use client'
 import Image from "next/image";
+import CountUp from "react-countup";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUtensils} from "@fortawesome/free-solid-svg-icons";
@@ -44,7 +46,9 @@ const Welcome =()=>{
                         {items.map(item=>(
                             <div key={item.id} className="flex flex-start items-center gap-4">
                                 <div className="w-[5px] h-[60px] bg-[#fea116]"></div>
-                                <h1 className={`${nunito.className} text-[#fea116] text-5xl font-extrabold`}>{item.number}</h1>
+                                <h1 className={`${nunito.className} text-5xl text-[#fea116] font-extrabold`}>
+                                    <CountUp start={0} end={item.number} duration={6}/>
+                                </h1>
                                 <div className="pl-2">
                                     <p className={`${heebo.className} text-[#666565] text-base font-normal`}>{item.title}</p>
                                     <h6 className={`${nunito.className} text-base font-extrabold`}>{item.header}</h6>

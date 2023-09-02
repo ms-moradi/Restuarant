@@ -19,17 +19,17 @@ const CardMember =({picture, name ,description})=>{
     }
 
     return(
-        <div className="w-[260px] inline-block shadow-3xl" onMouseEnter={handelOnMouseEnter} onMouseLeave={handleMOuseLeave}>
+        <div className="w-[260px] inline-block shadow-3xl transition-[height]" onMouseEnter={handelOnMouseEnter} onMouseLeave={handleMOuseLeave}>
             <div className=" flex flex-col items-center gap-6 p-3 lg:p-6">
                 <div className="w-[230px] lg:w-[200px] rounded-full overflow-hidden ">
-                    <Image src={picture} alt="team" className='hover:scale-115'/>
+                    <Image src={picture} alt="team" className='transition ease-in-out delay-150 hover:scale-110 '/>
                 </div>
                 <div className="flex flex-col items-center">
                     <h5 className={`${nunito.className} text-xl font-extrabold`}>{name}</h5>
                     <p className={`${heebo.className} text-[#666565] text-sm font-normal`}>{description}</p>
                 </div>
             </div>
-            <div className={display ? 'flex justify-center gap-2' : 'hidden'}>
+            <div className={display ? 'animate-slide-in-down flex justify-center gap-2 opacity-100' : 'hidden'}>
                 {sociaNletwork.map(network =>(
                     <div key={network.id} className="w-[30px] flex justify-center bg-[#fea116] rounded-t-full p-2 ">
                         <FontAwesomeIcon icon={network.icon} className="text-[#fff] text-lg"/>
